@@ -1,5 +1,5 @@
 const {isPrimeSimpleMethod, isPrimeByMillerRabinTest, isPrimeByFermatTheorem} = require('./isPrime_methods');
-const BigIntMath = require('./BigIntMath');
+const BigIntMath = require('./until/BigIntMath');
 
 
 function getPrimeGenerateCandidate(lengthBytes) {

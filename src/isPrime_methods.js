@@ -1,5 +1,5 @@
-const {getRandomInteger} = require('./random');
-const BigIntMath = require('./BigIntMath');
+const {getRandomInteger} = require('./until/random');
+const BigIntMath = require('./until/BigIntMath');
 
 function isPrimeSimpleMethod(num) {
     num = BigIntMath.toBigIntFormat(num);
